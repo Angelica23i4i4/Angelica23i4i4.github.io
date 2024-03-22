@@ -93,6 +93,20 @@
     </item>
     
     <item>
+      <title>Еще одна обычная неделя</title>
+      <link>http://localhost:1313/post/post3/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/post3/</guid>
+      <description>&lt;h2 id=&#34;учеба&#34;&gt;Учеба&lt;/h2&gt;
+&lt;p&gt;Я как-то больше отдыхала и пыталась заставить себя программировать. Но закончила курс по машинному обучениию&lt;/p&gt;
+&lt;h2 id=&#34;хобби&#34;&gt;Хобби&lt;/h2&gt;
+&lt;p&gt;Почитала книгу на английском, решила также заняться японским языком.&lt;/p&gt;
+&lt;h2 id=&#34;работа&#34;&gt;Работа&lt;/h2&gt;
+&lt;p&gt;Зарегистировалась на митапы, которые собираюсь посетить на следующей неделе.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>О системе контроля версий Git.</title>
       <link>http://localhost:1313/post/post2/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
@@ -121,10 +135,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Локальный контроль версий&#34; srcset=&#34;
-               /post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_fbd576e3de3e88564f412519e1b4c70a.webp 400w,
+               /post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_bb1ecdf62ef5047c65dfb189ce06741d.webp 400w,
                /post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_cf24c373b89e5960e837c85214fb17f0.webp 760w,
                /post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_fbd576e3de3e88564f412519e1b4c70a.webp&#34;
+               src=&#34;http://localhost:1313/post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_bb1ecdf62ef5047c65dfb189ce06741d.webp&#34;
                width=&#34;760&#34;
                height=&#34;649&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -152,10 +166,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Централизованный контроль версий&#34; srcset=&#34;
-               /post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_b2b7b2ed61e562083f3be7a9fe85094d.webp 400w,
+               /post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_e0e95f3afe9eaf45e634ba8d5488f638.webp 400w,
                /post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_84149d40381af1783dc381c36f8c4805.webp 760w,
                /post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_b2b7b2ed61e562083f3be7a9fe85094d.webp&#34;
+               src=&#34;http://localhost:1313/post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_e0e95f3afe9eaf45e634ba8d5488f638.webp&#34;
                width=&#34;760&#34;
                height=&#34;528&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -184,10 +198,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Распределённый контроль версий&#34; srcset=&#34;
-               /post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_bab064e804fd44b12f62de055492bb3a.webp 400w,
+               /post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_642852953b2dfd7890966c45944a02cb.webp 400w,
                /post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_1a53389a1c89461b30aaf402b0cf9f67.webp 760w,
                /post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_bab064e804fd44b12f62de055492bb3a.webp&#34;
+               src=&#34;http://localhost:1313/post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_642852953b2dfd7890966c45944a02cb.webp&#34;
                width=&#34;635&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -210,6 +224,15 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;хобби&#34;&gt;Хобби&lt;/h2&gt;
 &lt;p&gt;Я нашла людей с которыми буду практиковать английский и немецкий языки. Мы довольно дружелюбно общаемся. Также я нашла людей с которыми регулярно изучаю машинное обучение в команде.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Язык разметки Latex</title>
+      <link>http://localhost:1313/post/post4/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/post4/</guid>
+      <description>&lt;h2 id=&#34;cодержание&#34;&gt;Cодержание&lt;/h2&gt;
 </description>
     </item>
     
