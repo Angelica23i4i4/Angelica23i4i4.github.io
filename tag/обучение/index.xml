@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Обучение | Academic</title>
+    <link>http://localhost:1313/tag/%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+      <atom:link href="http://localhost:1313/tag/%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/index.xml" rel="self" type="application/rss+xml" />
+    <description>Обучение</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Обучение</title>
+      <link>http://localhost:1313/tag/%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+    </image>
+    
+    <item>
+      <title>Создание презентации</title>
+      <link>http://localhost:1313/post/post6/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/post6/</guid>
+      <description>&lt;h2 id=&#34;как-создать-презентацию&#34;&gt;Как создать презентацию&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Сформулируйте тему
+Трудно слушать собеседника, который перескакивает с одного на другое, поэтому у презентации должна быть только одна тема. Иначе получится долгий рассказ ни о чем. Тема должна быть достаточно узкой, чтобы в конце предложить решение проблемы. Сужайте тему до тех пор, пока презентацию нельзя будет изложить в десяти коротких пунктах.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Определить хорошую тему легко — она сама подсказывает структуру выступления.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
