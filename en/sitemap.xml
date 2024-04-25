@@ -45,7 +45,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -114,8 +114,12 @@
                 href="http://localhost:1313/post/post3/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tag/casual/</loc>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -142,8 +146,22 @@
                 href="http://localhost:1313/post/post6/"
                 />
   </url><url>
+    <loc>http://localhost:1313/post/post10/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/post/post10/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/post/post10/"
+                />
+  </url><url>
     <loc>http://localhost:1313/category/demo/</loc>
-    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -213,7 +231,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -224,6 +242,20 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="http://localhost:1313/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/post/post9/</loc>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/post/post9/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/post/post9/"
                 />
   </url><url>
     <loc>http://localhost:1313/tag/week/</loc>
