@@ -201,10 +201,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /ru/post/post10/scale_1200_hubf6877551b4fc5ebf763e40a05a1d55d_207373_e1ca9e10df72bb63b894c6a33f2031cb.webp 400w,
+               /ru/post/post10/scale_1200_hubf6877551b4fc5ebf763e40a05a1d55d_207373_957ac0f114d975fb7d129404d7fbe664.webp 400w,
                /ru/post/post10/scale_1200_hubf6877551b4fc5ebf763e40a05a1d55d_207373_73abcefc44e474e6297eabcdf97c09d4.webp 760w,
                /ru/post/post10/scale_1200_hubf6877551b4fc5ebf763e40a05a1d55d_207373_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;http://localhost:1313/ru/post/post10/scale_1200_hubf6877551b4fc5ebf763e40a05a1d55d_207373_e1ca9e10df72bb63b894c6a33f2031cb.webp&#34;
+               src=&#34;http://localhost:1313/ru/post/post10/scale_1200_hubf6877551b4fc5ebf763e40a05a1d55d_207373_957ac0f114d975fb7d129404d7fbe664.webp&#34;
                width=&#34;760&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -229,9 +229,9 @@
     
     <item>
       <title>О системе контроля версий Git.</title>
-      <link>http://localhost:1313/ru/post/post2/</link>
+      <link>http://localhost:1313/ru/post/2_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ru/post/post2/</guid>
+      <guid>http://localhost:1313/ru/post/2_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/</guid>
       <description>&lt;h2 id=&#34;о-системе-контроля-версий&#34;&gt;О системе контроля версий&lt;/h2&gt;
 &lt;p&gt;Что такое «система контроля версий» и почему это важно? Система контроля версий — это система, записывающая изменения в файл или набор файлов в течение времени и позволяющая вернуться позже к определённой версии. Для контроля версий файлов в этой книге в качестве примера будет использоваться исходный код программного обеспечения, хотя на самом деле вы можете использовать контроль версий практически для любых типов файлов.&lt;/p&gt;
 &lt;h2 id=&#34;локальные-системы-контроля--версий&#34;&gt;Локальные системы контроля  версий&lt;/h2&gt;
@@ -256,10 +256,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Локальный контроль версий&#34; srcset=&#34;
-               /ru/post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_bb1ecdf62ef5047c65dfb189ce06741d.webp 400w,
-               /ru/post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_cf24c373b89e5960e837c85214fb17f0.webp 760w,
-               /ru/post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/ru/post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_bb1ecdf62ef5047c65dfb189ce06741d.webp&#34;
+               /ru/post/2_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_f378ec2e8c9cd62499848ae0a0175dcb.webp 400w,
+               /ru/post/2_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_cb39e67baf09d25701fa9562254c5001.webp 760w,
+               /ru/post/2_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/ru/post/2_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_f378ec2e8c9cd62499848ae0a0175dcb.webp&#34;
                width=&#34;760&#34;
                height=&#34;649&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -287,10 +287,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Централизованный контроль версий&#34; srcset=&#34;
-               /ru/post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_e0e95f3afe9eaf45e634ba8d5488f638.webp 400w,
-               /ru/post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_84149d40381af1783dc381c36f8c4805.webp 760w,
-               /ru/post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/ru/post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_e0e95f3afe9eaf45e634ba8d5488f638.webp&#34;
+               /ru/post/2_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/git2_hu74fb508a0af33a33fa0f541a94378552_22810_4556df3b4988c5b52ed9e2d037104e13.webp 400w,
+               /ru/post/2_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/git2_hu74fb508a0af33a33fa0f541a94378552_22810_f4c121a16c6cce45a998bd76d3b1df02.webp 760w,
+               /ru/post/2_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/git2_hu74fb508a0af33a33fa0f541a94378552_22810_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/ru/post/2_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/git2_hu74fb508a0af33a33fa0f541a94378552_22810_4556df3b4988c5b52ed9e2d037104e13.webp&#34;
                width=&#34;760&#34;
                height=&#34;528&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -319,10 +319,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Распределённый контроль версий&#34; srcset=&#34;
-               /ru/post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_642852953b2dfd7890966c45944a02cb.webp 400w,
-               /ru/post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_1a53389a1c89461b30aaf402b0cf9f67.webp 760w,
-               /ru/post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/ru/post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_642852953b2dfd7890966c45944a02cb.webp&#34;
+               /ru/post/2_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/git3_hu7dff96406965f7bb87732a216019226c_26657_953063b6b65894314ca8579b6c255410.webp 400w,
+               /ru/post/2_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/git3_hu7dff96406965f7bb87732a216019226c_26657_53c32903c0f98818dad9900a6dd9efbb.webp 760w,
+               /ru/post/2_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/git3_hu7dff96406965f7bb87732a216019226c_26657_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/ru/post/2_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/git3_hu7dff96406965f7bb87732a216019226c_26657_953063b6b65894314ca8579b6c255410.webp&#34;
                width=&#34;635&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -443,9 +443,9 @@
     
     <item>
       <title>Что произошло на этой неделе?</title>
-      <link>http://localhost:1313/ru/post/post1/</link>
+      <link>http://localhost:1313/ru/post/1_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ru/post/post1/</guid>
+      <guid>http://localhost:1313/ru/post/1_%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/</guid>
       <description>&lt;h2 id=&#34;описание-учебной-недели&#34;&gt;Описание учебной недели&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Я проходила курс по машинному обучению и довольно много прошла. Планирую свой проект сделать на его основе.&lt;/li&gt;
@@ -686,7 +686,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-857162493&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-289743615&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -696,7 +696,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-857162493&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-289743615&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
