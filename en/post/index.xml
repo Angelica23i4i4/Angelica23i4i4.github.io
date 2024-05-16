@@ -38,10 +38,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;png&#34; srcset=&#34;
-               /en/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_cdb6e311e2a1735dbf10e762428f706e.webp 400w,
-               /en/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_fc9bbb87927669af314bc8ac65d9d90e.webp 760w,
+               /en/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_73179593afc46954cb4c21418984f7f4.webp 400w,
+               /en/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_6b76da17c04a40aee4c1c633206f8065.webp 760w,
                /en/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/en/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_cdb6e311e2a1735dbf10e762428f706e.webp&#34;
+               src=&#34;http://localhost:1313/en/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_73179593afc46954cb4c21418984f7f4.webp&#34;
                width=&#34;601&#34;
                height=&#34;203&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -56,6 +56,394 @@
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pipx install academic
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;academic import &lt;span class=&#34;s1&#34;&gt;&amp;#39;notebooks/**.ipynb&amp;#39;&lt;/span&gt; content/post/ --verbose
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The notebooks will be published to the folder you specify above. In this case, they will be published to your &lt;code&gt;content/post/&lt;/code&gt; folder.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About the Git version control system</title>
+      <link>http://localhost:1313/en/post/post2/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/post/post2/</guid>
+      <description>&lt;h2 id=&#34;about-the-git-version-control-system&#34;&gt;About the Git version control system&lt;/h2&gt;
+&lt;p&gt;What is a &amp;ldquo;version control system&amp;rdquo; and why is it important? A version control system is a system that records changes to a file or set of files over time and allows you to revert to a specific version later. For file version control, this book will use software source code as an example, although in reality you can use version control for almost any type of file.&lt;/p&gt;
+&lt;h2 id=&#34;local-version-control-systems&#34;&gt;Local version control systems&lt;/h2&gt;
+&lt;p&gt;Many people use copying files into a separate directory (maybe even a timestamped directory if they&amp;rsquo;re smart enough) as a method of version control. This approach is very common due to its simplicity, but it is incredibly error prone. It can be easy to forget which directory you are in and accidentally change the wrong file or copy the wrong files that you intended.&lt;/p&gt;
+&lt;p&gt;To solve this problem, programmers long ago developed local VCSs with a simple database that keeps a record of all changes to files, thereby maintaining revision control.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Local version control&#34; srcset=&#34;
+               /en/post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_fbd576e3de3e88564f412519e1b4c70a.webp 400w,
+               /en/post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_cf24c373b89e5960e837c85214fb17f0.webp 760w,
+               /en/post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/en/post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_fbd576e3de3e88564f412519e1b4c70a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;649&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;One popular VCS was the RCS system, which is still distributed with many computers today. RCS stores sets of patches (differences between files) on disk in a special format, using which it can recreate the state of each file at a given point in time.&lt;/p&gt;
+&lt;h2 id=&#34;centralized-version-control-systems&#34;&gt;Centralized version control systems&lt;/h2&gt;
+&lt;p&gt;The next major problem that people face is the need to interact with other developers. In order to deal with it, centralized version control systems (Centralized Version Control System, hereinafter CVCS) were developed. Systems such as CVS, Subversion, and Perforce use a single server that contains all versions of files, and a number of clients that retrieve files from this centralized repository. CVCS has been the standard for many years.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Centralized version control&#34; srcset=&#34;
+               /en/post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_b2b7b2ed61e562083f3be7a9fe85094d.webp 400w,
+               /en/post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_84149d40381af1783dc381c36f8c4805.webp 760w,
+               /en/post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/en/post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_b2b7b2ed61e562083f3be7a9fe85094d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;528&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This approach has many advantages, especially over local VCS. For example, all project developers know to a certain extent what each of them does. Administrators have full control over who can do what, and it is much easier to administer CVCS than to operate local databases on each client.&lt;/p&gt;
+&lt;p&gt;Despite this, this approach also has serious disadvantages. The most obvious disadvantage is the single point of failure represented by a centralized server. If this server goes down for an hour, then during that time no one will be able to use version control to save the changes they are working on, and no one will be able to share those changes with other developers.&lt;/p&gt;
+&lt;h2 id=&#34;distributed-version-control-systems&#34;&gt;Distributed version control systems&lt;/h2&gt;
+&lt;p&gt;This is where distributed version control systems (DVCS) come into play. In a DVCS (such as Git, Mercurial, Bazaar or Darcs), clients don&amp;rsquo;t just download a snapshot of all files (the state of the files at a certain point in time) — they copy the entire repository. In this case, if one of the servers through which the developers were communicating dies, any client repository can be copied to another server to continue working. Each copy of the repository is a complete backup of all data.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Distributed version control&#34; srcset=&#34;
+               /en/post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_bab064e804fd44b12f62de055492bb3a.webp 400w,
+               /en/post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_1a53389a1c89461b30aaf402b0cf9f67.webp 760w,
+               /en/post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/en/post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_bab064e804fd44b12f62de055492bb3a.webp&#34;
+               width=&#34;635&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Moreover, many DVCS can interact with multiple remote repositories at the same time, so you can work with different groups of people using different approaches at the same time within the same project. This allows you to use several development approaches at once, for example, hierarchical models, which is completely impossible in centralized systems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Another normal week</title>
+      <link>http://localhost:1313/en/post/post3/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/post/post3/</guid>
+      <description>&lt;h2 id=&#34;studies&#34;&gt;Studies&lt;/h2&gt;
+&lt;p&gt;I somehow rested more and tried to force myself to program. But I completed a course in machine learning&lt;/p&gt;
+&lt;h2 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h2&gt;
+&lt;p&gt;I read a book in English and decided to also study Japanese.&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;Work&lt;/h2&gt;
+&lt;p&gt;I registered for the meetups that I’m going to attend next week.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creating a presentation</title>
+      <link>http://localhost:1313/en/post/post6/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/post/post6/</guid>
+      <description>&lt;h2 id=&#34;how-to-create-a-good-presentation&#34;&gt;How to create a good presentation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Formulate a topic
+It is difficult to listen to an interlocutor who jumps from one thing to another, so the presentation should have only one topic. Otherwise it will be a long story about nothing. The topic should be narrow enough to provide a solution to the problem at the end. Narrow the topic until the presentation can be summarized in ten short paragraphs.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It is easy to identify a good topic - it itself suggests the structure of the speech.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Define your goal
+A good presentation changes the existing picture of the world. For example, people are starting to be more environmentally friendly or running for a new smartphone. The goal does not have to be ambitious, the main thing is specific.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A good presentation goal begins with a question: What do I want to change in the audience&amp;rsquo;s behavior?&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Think through the scenario
+The purpose of the presentation is what you want to change in the listener&amp;rsquo;s mind, and the script is how you will achieve these changes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Imagine that you are making up a story. The listener needs to be intrigued, come up with an interesting character, and lead him through difficulties to a successful ending. This is the basic structure of any text and presentation. Fairy tales, film scripts, and product advertisements are based on this structure:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Bring you up to date.&lt;/li&gt;
+&lt;li&gt;Intrigue&lt;/li&gt;
+&lt;li&gt;Thesis. This is the main motive of the presentation, what you want to teach people.&lt;/li&gt;
+&lt;li&gt;Antithesis. Show the other side of the coin. This builds trust and warns against problems that a person may encounter in practice.&lt;/li&gt;
+&lt;li&gt;Conclusion. A bad presentation ends with “that’s all.” Conclude with a short summary or conclusion. After your speech, the person should understand what he can do right now.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Show examples
+Less theory - more life. Show how your product works and how people use it.
+Real stories of people, screenshots of programs and live photographs of the product look more convincing than dry text and photos from stock photos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Alternate slides
+Presentation is like text. If the text consists of sentences of the same length and the same type, reading will be boring. No rhythm. Therefore, alternate text slides and slides with images, add graphics. Sometimes you can joke.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tell me what to do next
+A bad speech ends with: “That’s it, now the questions.” This way you leave the listener alone with his thoughts.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A good presentation gives clear instructions on what to do next. This is not necessarily a call to action. At the end, you can go over the conclusions again, emphasize the main thesis, or tell where to get additional information.&lt;/p&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Fewer flowers
+The presentation should have 1-2 primary colors. For example, for background, text and icons. Follow the chosen sequence and do not change colors unnecessarily. Choosing colors on your own is quite difficult, especially if you are not a designer. If you&amp;rsquo;re making a corporate presentation, use brand colors.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If there are no corporate colors, use Tilda Colors. Copy the color you like by clicking on its code or on the color palette.&lt;/p&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;More contrast
+White on blue can look nice on your Retina computer. But if you have to show the presentation through a projector, the text will not be read. Therefore, use contrasting colors. The biggest contrast: black and white. The rest can be checked using the contrast testing service.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fewer fonts
+One font is enough to create a presentation. Take a modern sans serif font: Tilda Sans, Open Sans, Roboto, PT Sans (these fonts are free to use). These are simple fonts that are easy to read. It&amp;rsquo;s easy to check: step away from the screen and try to read the headline. If it&amp;rsquo;s easy to read, you guessed it. Emphases can be made by changing the font weight.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rule of thirds
+This rule for creating presentations helps to arrange objects on a slide so that the eye immediately highlights the most important things. Divide the slide into thirds lengthwise and crosswise. Place significant objects at intersections. Significant objects are headings and illustrations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The texts are shorter
+One slide - one thought. This slide is easy to read and remember. If you are speaking in public, it will maintain the audience&amp;rsquo;s attention. Exactly how much text will be on the slide depends on the size of the audience. If a person is reading a presentation on the screen, a paragraph of text will not scare him. If you are speaking to an audience of a hundred people, it will be difficult to read more than ten words on a slide.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calculate how many slides should be in the presentation
+A simple rule that can be taken as a basis when creating presentations is one slide per minute. If your speech is designed for 30 minutes, then the optimal number of slides is also 30!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add images
+Photos and icons help to highlight the content, but should not replace it. If you find a beautiful “on-topic” photo that doesn’t help convey the idea, don’t use it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;14.Make friends slides
+In a presentation, all elements should be friendly, that is, be of the same type. Then it is perceived easily because it meets expectations.&lt;/p&gt;
+&lt;p&gt;Make several templates for each type of slide: a slide with text, an image, a graph. Then simply duplicate the slides and change only the text and images.&lt;/p&gt;
+&lt;p&gt;A presentation where the same type of elements occupy the same place on each slide looks neat.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Demanded knowledge in the field of Data Science</title>
+      <link>http://localhost:1313/en/post/post10/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/post/post10/</guid>
+      <description>&lt;h2 id=&#34;what-are-the-most-advanced-skills&#34;&gt;What are the most advanced skills?&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Fundamentals of statistics and mathematics. To be successful in machine learning, you need to have a good understanding of basic concepts in statistics and mathematics, such as probability, linear algebra, optimization, and probability theory.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Programming in Python. Python is one of the most popular programming languages ​​in machine learning. In the courses, you will learn the basics of the Python language and learn how to use it to solve machine learning problems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Algorithms and data structures. Knowledge of basic algorithms and data structures is an important component of successful work in machine learning. In the courses, you will learn various machine learning algorithms such as linear regression, decision trees, random forests, and neural networks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Working with data. In machine learning, data plays a key role. In the courses you will learn to collect, process and analyze data using various tools and libraries such as Pandas and NumPy.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Deep learning. Deep learning is one of the hottest areas of machine learning. In the courses you will learn how to work with neural networks and use them to solve complex problems such as pattern recognition and natural language processing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;scale_1200.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Latex markup language</title>
+      <link>http://localhost:1313/en/post/post4/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/post/post4/</guid>
+      <description>&lt;h2 id=&#34;content&#34;&gt;Content&lt;/h2&gt;
+&lt;p&gt;First, the user needs to prepare a file with text equipped
+commands for LaTeX, which traditionally has a .tex extension. Further
+the procedures take place in two stages:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;First of all, you should process the file using a translator program. IN
+the result will be a file with the extension .dvi (device-independent, that is, independent
+from the device).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Further, the generated file, also called a dvi-file, can be used using programs
+which are called dvi drivers, print on a laser or dot matrix
+printer, look at the screen, and so on. If the results are unsatisfactory,
+the user can make changes to the source file, after which the cycle repeats.
+The source file for the LaTeX system is the actual text of the document along with
+special characters and commands with which instructions should be transmitted to the system
+regarding text placement. This file can be generated using any
+text editor, but in this case it is necessary that the so-called
+pure text file (ASCII file). This means that the text should not contain
+font highlighting, pagination, and the like.
+The source text of the document cannot have hyphens (LaTeX will generate them itself). Words
+must be separated by spaces, but LaTeX does not distinguish how many
+The user left spaces between words. The end of the line is also treated as
+space. Individual paragraphs must be separated from each other by blank lines.
+Most of the characters in the source text directly represent what follows
+print (if there is a comma in the source text, then there will be a comma in the print). A
+The following characters have a special status:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;{ } $ &amp;amp; # % _ ~ ~ \ &amp;amp; # % _ ~ ~ \&lt;/p&gt;
+&lt;p&gt;If one of these characters is used simply in the text, then most likely it will be issued
+error message. A printed display of the first seven characters can be obtained if
+In the source text, place the “\” sign before the corresponding character without a space.
+When the % symbol is used in text other than as part of the % combination, it is considered
+“comment character”, that is, all characters that are located on the line after it,
+the program ignores. Using the % symbol, marks can be added to the source text
+with the status “for yourself”.
+Curly braces delimit groups in the source file. Dollar symbol limits
+mathematical formulas. When entering mathematical formulas, the _ and ^ signs are used (“the sign
+underscore&amp;quot; and &amp;ldquo;lid&amp;rdquo;). The ~ sign is intended to indicate a &amp;ldquo;non-breaking space&amp;rdquo; between
+words. All LaTeX commands begin with a . The # and &amp;amp; signs are used in more
+complex LaTeX constructions.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /en/post/post4/images_hu255d48e0e0d0cfc0d1076d38da469e86_7887_92ad1ad757738aaf671f39c43bd35ee5.webp 400w,
+               /en/post/post4/images_hu255d48e0e0d0cfc0d1076d38da469e86_7887_9bc020ce415a082ecac2be471504e4df.webp 760w,
+               /en/post/post4/images_hu255d48e0e0d0cfc0d1076d38da469e86_7887_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;http://localhost:1313/en/post/post4/images_hu255d48e0e0d0cfc0d1076d38da469e86_7887_92ad1ad757738aaf671f39c43bd35ee5.webp&#34;
+               width=&#34;369&#34;
+               height=&#34;137&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Post about the past week 3</title>
+      <link>http://localhost:1313/en/post/post5/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/post/post5/</guid>
+      <description>&lt;h2 id=&#34;how-was-my-week-in-april&#34;&gt;How was my week in April?&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;I have done a lot of homework and can finally be free.&lt;/li&gt;
+&lt;li&gt;Played visual novels&lt;/li&gt;
+&lt;li&gt;Started learning Japanese&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I wish you a good time too!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scientific programming languages</title>
+      <link>http://localhost:1313/en/post/post8/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/post/post8/</guid>
+      <description>&lt;h2 id=&#34;what-programming-languages-are-widely-represented-in-science&#34;&gt;What programming languages ​​are widely represented in science?&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Python is one of the most powerful and flexible languages ​​that is also widely used in data science. The main reason is its simple and elegant syntax, as well as a large collection of third-party libraries. A tool that can be found all over the data science field is Jupyter. Jupyter notebooks let you quickly see the results of your code, plot your data, and create code documentation using markup blocks. It is not a Python-only tool, but the most common combination is Python and Jupyter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;R is an open-source programming language first introduced in 1993 and used for statistical computing, data analysis, and machine learning. According to Stack Overflow analysis, R&amp;rsquo;s popularity has been growing over the past few years.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Although R is widely used by researchers, it is now also used by large technology companies such as Google, Facebook and Twitter for data analysis and statistics.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Julia takes the best of languages ​​like Python, Ruby, Lisp, and R, combines it with the speed of C, and includes familiar math notation like Matlab. We can call Julia an ambitious attempt to create a language that is good enough for general programming and at the same time amazing for specific computer science disciplines such as machine learning, data mining, distributed and parallel computing. One of the main advantages of Julia is its speed, comparable to languages ​​such as C, Rust, Lua and Go. This is because it is compiled using the Just-In-Time (JIT) principle.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;MATLAB is a proprietary programming language used by millions of engineers and scientists for mathematical and statistical computing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Scala is a high-level programming language first introduced in 2004 that runs in the JVM (Java Virtual Machine) or with JavaScript in your browser. Many data scientists have included Scala in their toolkit because it is invaluable when it comes to analyzing large amounts of data. According to the Stack Overflow 2021 study, Scala is the 7th highest paid language in the world. But you need to be careful with these statistics, since working in Scala is not that common in the industry. Since Scala runs on the JVM, you&amp;rsquo;ll have access to a ton of existing libraries and some Scala-only packages used in the fields of big data, mathematics, databases, and computer science in general. If you&amp;rsquo;re already fluent in Java, Scala may be the right language for you to transition into data science.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Java has been one of the most common and beloved programming languages ​​for several decades. It is a universal language that can be used in almost every situation imaginable. Data science is no exception. Although Java is primarily used in mobile and web applications, due to its strong user base, it is used along with other popular frameworks such as Hadoop or Spark for analyzing large volumes of data.
+Java can be used in most areas of data science such as database management, machine learning. If you know Java, it is much easier to master a couple of libraries than to learn to use a completely different language like R or Julia.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The C++ language completes this list. Although it is used primarily to create applications and operating systems, without it we would not have seen the current rise of data science. Data scientists prefer languages ​​like Python or R that are easy to use and debug because they don&amp;rsquo;t want to waste time fixing weird bugs in C/C++. However, C++ plays an important role in data science because many libraries used in other languages ​​are written in it. Building a machine learning model requires computational effort, so using an efficient language like C++ makes sense. If you want to get involved in the data science industry by developing libraries for other languages, C++ may be the right choice.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The post is about the last April week</title>
+      <link>http://localhost:1313/en/post/post9/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/post/post9/</guid>
+      <description>&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s new?&lt;/h2&gt;
+&lt;p&gt;23 April was my birthday and now I&amp;rsquo;m 20. I went to a Japanese restaurant and had a nice time stydying in a small cafe. I&amp;rsquo;ve also bought a textbook for German as gift to myself. And I got congratulations from a lot of my friends!&lt;/p&gt;
 </description>
     </item>
     
@@ -140,755 +528,28 @@
     </item>
     
     <item>
-      <title>Еще одна обычная неделя</title>
-      <link>http://localhost:1313/en/post/post3/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/post/post3/</guid>
-      <description>&lt;h2 id=&#34;учеба&#34;&gt;Учеба&lt;/h2&gt;
-&lt;p&gt;Я как-то больше отдыхала и пыталась заставить себя программировать. Но закончила курс по машинному обучениию&lt;/p&gt;
-&lt;h2 id=&#34;хобби&#34;&gt;Хобби&lt;/h2&gt;
-&lt;p&gt;Почитала книгу на английском, решила также заняться японским языком.&lt;/p&gt;
-&lt;h2 id=&#34;работа&#34;&gt;Работа&lt;/h2&gt;
-&lt;p&gt;Зарегистировалась на митапы, которые собираюсь посетить на следующей неделе.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>О системе контроля версий Git.</title>
-      <link>http://localhost:1313/en/post/post2/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/post/post2/</guid>
-      <description>&lt;h2 id=&#34;о-системе-контроля-версий&#34;&gt;О системе контроля версий&lt;/h2&gt;
-&lt;p&gt;Что такое «система контроля версий» и почему это важно? Система контроля версий — это система, записывающая изменения в файл или набор файлов в течение времени и позволяющая вернуться позже к определённой версии. Для контроля версий файлов в этой книге в качестве примера будет использоваться исходный код программного обеспечения, хотя на самом деле вы можете использовать контроль версий практически для любых типов файлов.&lt;/p&gt;
-&lt;h2 id=&#34;локальные-системы-контроля--версий&#34;&gt;Локальные системы контроля  версий&lt;/h2&gt;
-&lt;p&gt;Многие люди в качестве метода контроля версий применяют копирование файлов в отдельный каталог (возможно даже, каталог с отметкой по времени, если они достаточно сообразительны). Данный подход очень распространён из-за его простоты, однако он невероятно сильно подвержен появлению ошибок. Можно легко забыть в каком каталоге вы находитесь и случайно изменить не тот файл или скопировать не те файлы, которые вы хотели.&lt;/p&gt;
-&lt;p&gt;Для того, чтобы решить эту проблему, программисты давным-давно разработали локальные VCS с простой базой данных, которая хранит записи о всех изменениях в файлах, осуществляя тем самым контроль ревизий.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Локальный контроль версий&#34; srcset=&#34;
-               /en/post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_f378ec2e8c9cd62499848ae0a0175dcb.webp 400w,
-               /en/post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_cb39e67baf09d25701fa9562254c5001.webp 760w,
-               /en/post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/en/post/post2/git1_hufcb633eabb4ce248b64f5422c2c69f5a_20255_f378ec2e8c9cd62499848ae0a0175dcb.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;649&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;Одной из популярных VCS была система RCS, которая и сегодня распространяется со многими компьютерами. RCS хранит на диске наборы патчей (различий между файлами) в специальном формате, применяя которые она может воссоздавать состояние каждого файла в заданный момент времени.&lt;/p&gt;
-&lt;h2 id=&#34;централизованные-системы-контроля--версий&#34;&gt;Централизованные системы контроля  версий&lt;/h2&gt;
-&lt;p&gt;Следующая серьёзная проблема, с которой сталкиваются люди, — это необходимость взаимодействовать с другими разработчиками. Для того, чтобы разобраться с ней, были разработаны централизованные системы контроля версий (Centralized Version Control System, далее CVCS). Такие системы, как CVS, Subversion и Perforce, используют единственный сервер, содержащий все версии файлов, и некоторое количество клиентов, которые получают файлы из этого централизованного хранилища. Применение CVCS являлось стандартом на протяжении многих лет.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Централизованный контроль версий&#34; srcset=&#34;
-               /en/post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_4556df3b4988c5b52ed9e2d037104e13.webp 400w,
-               /en/post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_f4c121a16c6cce45a998bd76d3b1df02.webp 760w,
-               /en/post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/en/post/post2/git2_hu74fb508a0af33a33fa0f541a94378552_22810_4556df3b4988c5b52ed9e2d037104e13.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;528&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;Такой подход имеет множество преимуществ, особенно перед локальными VCS. Например, все разработчики проекта в определённой степени знают, чем занимается каждый из них. Администраторы имеют полный контроль над тем, кто и что может делать, и гораздо проще администрировать CVCS, чем оперировать локальными базами данных на каждом клиенте.&lt;/p&gt;
-&lt;p&gt;Несмотря на это, данный подход тоже имеет серьёзные минусы. Самый очевидный минус — это единая точка отказа, представленная централизованным сервером. Если этот сервер выйдет из строя на час, то в течение этого времени никто не сможет использовать контроль версий для сохранения изменений, над которыми работает, а также никто не сможет обмениваться этими изменениями с другими разработчиками.&lt;/p&gt;
-&lt;h2 id=&#34;распределённые--системы-контроля--версий&#34;&gt;Распределённые  системы контроля  версий&lt;/h2&gt;
-&lt;p&gt;Здесь в игру вступают распределённые системы контроля версий (Distributed Version Control System, далее DVCS). В DVCS (таких как Git, Mercurial, Bazaar или Darcs) клиенты не просто скачивают снимок всех файлов (состояние файлов на определённый момент времени) — они полностью копируют репозиторий. В этом случае, если один из серверов, через который разработчики обменивались данными, умрёт, любой клиентский репозиторий может быть скопирован на другой сервер для продолжения работы. Каждая копия репозитория является полным бэкапом всех данных.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Распределённый контроль версий&#34; srcset=&#34;
-               /en/post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_953063b6b65894314ca8579b6c255410.webp 400w,
-               /en/post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_53c32903c0f98818dad9900a6dd9efbb.webp 760w,
-               /en/post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/en/post/post2/git3_hu7dff96406965f7bb87732a216019226c_26657_953063b6b65894314ca8579b6c255410.webp&#34;
-               width=&#34;635&#34;
-               height=&#34;760&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;Более того, многие DVCS могут одновременно взаимодействовать с несколькими удалёнными репозиториями, благодаря этому вы можете работать с различными группами людей, применяя различные подходы единовременно в рамках одного проекта. Это позволяет применять сразу несколько подходов в разработке, например, иерархические модели, что совершенно невозможно в централизованных системах.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Пост о прошедшей недели 3</title>
-      <link>http://localhost:1313/en/post/post5/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/post/post5/</guid>
-      <description>&lt;h2 id=&#34;как-прошла-моя-неделя-в-апреле&#34;&gt;Как прошла моя неделя в апреле&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Я сделала очень много домашней работы и могу наконец быть свободна.&lt;/li&gt;
-&lt;li&gt;Поиграла в визуальные новеллы&lt;/li&gt;
-&lt;li&gt;Начала учить японский&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Желаю и вам провести время с пользой!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Создание презентации</title>
-      <link>http://localhost:1313/en/post/post6/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/post/post6/</guid>
-      <description>&lt;h2 id=&#34;как-создать-хорошую-презентацию&#34;&gt;Как создать хорошую презентацию&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Сформулируйте тему
-Трудно слушать собеседника, который перескакивает с одного на другое, поэтому у презентации должна быть только одна тема. Иначе получится долгий рассказ ни о чем. Тема должна быть достаточно узкой, чтобы в конце предложить решение проблемы. Сужайте тему до тех пор, пока презентацию нельзя будет изложить в десяти коротких пунктах.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Определить хорошую тему легко — она сама подсказывает структуру выступления.&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Определите цель
-Хорошая презентация меняет сложившуюся картину мира. Например, люди начинают бережнее относиться к окружающей среде или бегут за новым смартфоном. Цель не обязательно должна быть амбициозной, главное — конкретной.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Хорошая цель презентации начинается с вопроса: что я хочу изменить в поведении слушателей.&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Продумайте сценарий
-Цель презентации — это то, что вы хотите изменить в голове слушателя, а сценарий — это то, как вы к придете к этим изменениям.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Представьте, что вы сочиняете историю. Слушателя надо заинтриговать, придумать интересного героя, провести его через трудности к успешному финалу. Это и есть базовая структура любого текста и презентации. На такой структуре держатся сказки, сценарии фильмов и реклама продуктов:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Ввести в курс дела.&lt;/li&gt;
-&lt;li&gt;Заинтриговать&lt;/li&gt;
-&lt;li&gt;Тезис. Это основной мотив презентации, то, чему вы хотите научить людей.&lt;/li&gt;
-&lt;li&gt;Антитезис. Показывайте обратную сторону медали. Это вызывает доверие и предостерегает от проблем, с которыми человек может столкнуться на практике.&lt;/li&gt;
-&lt;li&gt;Заключение. Плохая презентация заканчивается словами «это всё». В завершении дайте краткое резюме или вывод. После вашего выступления человек должен понимать, что он может сделать прямо сейчас.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;Покажите примеры
-Меньше теории — больше жизни. Показывайте, как работает ваш продукт и как им пользуются люди.
-Реальные истории людей, скриншоты программ и живые фотографии продукта смотрятся убедительнее, чем сухой текст и фотографии с фотостоков.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Чередуйте слайды
-Презентация — как текст. Если текст состоит из предложений одинаковой длины и одного вида, читать будет скучно. Нет ритма. Поэтому чередуйте текстовые слайды и слайды с изображениями, добавляйте графики. Иногда можно и пошутить.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Скажите, что делать дальше
-Плохое выступление заканчивается так: «Это все, теперь вопросы». Так вы оставляете слушателя наедине с его мыслями.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Хорошая презентация дает четкую инструкцию, что делать дальше. Это не обязательно призыв к действию. В конце можно еще раз пройтись по выводам, подчеркнуть основной тезис или сказать, где взять дополнительную информацию.&lt;/p&gt;
-&lt;ol start=&#34;7&#34;&gt;
-&lt;li&gt;Меньше цветов
-В презентации должно быть 1−2 основных цвета. Например, для фона, текста и иконок. Соблюдайте выбранную последовательность и не меняйте цвета без необходимости. Самостоятельно выбрать цвета достаточно сложно, особенно, если вы не дизайнер. Если вы делаете корпоративную презентацию, используйте фирменные цвета.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Если фирменных цветов нет, воспользуйтесь Tilda Colors. Скопируйте понравившийся цвет, нажав на его код или на палитру с цветом.&lt;/p&gt;
-&lt;ol start=&#34;8&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;Больше контраста
-Белый на голубом может приятно смотреться на вашем компьютере с экраном Retina. Но если придется показывать презентацию через проектор, текст читаться не будет. Поэтому используйте контрастные цвета. Самый большой контраст: черный и белый. Остальные можно проверить с помощью сервиса проверки контрастности.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Меньше шрифтов
-Для создания презентации вполне достаточно одного шрифта. Возьмите современный шрифт без засечек: Tilda Sans, Open Sans, Roboto, PT Sans (эти шрифты можно использовать бесплатно). Это простые шрифты, которые легко читать. Проверить это просто: отойдите от экрана и попробуйте прочитать заголовок. Если читать легко — вы угадали. Акценты можно делать, меняя насыщенность шрифта.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Правило третей
-Это правило создания презентаций помогает расположить объекты на слайде так, чтобы глаз сразу выделял самое важное. Разделите слайд на трети вдоль и поперек. Значимые объекты располагайте на пересечениях. Значимые объекты — это заголовки и иллюстрации.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Тексты короче
-Один слайд — одна мысль. Такой слайд легко прочитать и запомнить. Если вы выступаете публично, он будет поддерживать внимание аудитории. Сколько именно текст будет на слайде, зависит от размера аудитории. Если человек читает презентацию на экране, абзац текста его не испугает. Если вы выступаете перед аудиторией в сто человек, читать больше десяти слов на слайде будет уже трудно.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Рассчитайте сколько слайдов должно быть в презентации
-Простое правило, которое можно взять за основу при создании презентаций — один слайд в минуту. Если ваше выступление рассчитано на 30 минут, то оптимальное количество слайдов тоже 30!&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Добавьте изображения
-Фотографии и иконки помогают раскрыть содержание, но не должны его заменять. Если вы нашли красивую фотографию «в тему», которая не помогает раскрыть мысль, не используйте ее.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Подружите слайды
-В презентации все элементы должны дружить, то есть быть однотипными. Тогда она воспринимается легко, потому что оправдывает ожидания.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Сделайте несколько шаблонов для каждого типа слайдов: слайд с текстом, с изображением, графиком. Дальше просто дублируйте слайды и изменяйте только текст и изображения.&lt;/p&gt;
-&lt;p&gt;Презентация, где однотипные элементы занимают одно и то же место на каждом слайде, выглядит аккуратно.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Что произошло на этой неделе?</title>
+      <title>What happened this week?</title>
       <link>http://localhost:1313/en/post/post1/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/post/post1/</guid>
-      <description>&lt;h2 id=&#34;описание-учебной-недели&#34;&gt;Описание учебной недели&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;description-of-the-school-week&#34;&gt;Description of the school week&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Я проходила курс по машинному обучению и довольно много прошла. Планирую свой проект сделать на его основе.&lt;/li&gt;
-&lt;li&gt;У меня было много лабораторных работ, но я все успела сделать.&lt;/li&gt;
-&lt;li&gt;Не успела позаниматься математикой&lt;/li&gt;
+&lt;li&gt;I took a course in machine learning and completed quite a lot. I plan to make my own project based on it.&lt;/li&gt;
+&lt;li&gt;I had a lot of laboratory work, but I managed to do everything.&lt;/li&gt;
+&lt;li&gt;Didn’t have time to do math&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;хобби&#34;&gt;Хобби&lt;/h2&gt;
-&lt;p&gt;Я нашла людей с которыми буду практиковать английский и немецкий языки. Мы довольно дружелюбно общаемся. Также я нашла людей с которыми регулярно изучаю машинное обучение в команде.&lt;/p&gt;
+&lt;h2 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h2&gt;
+&lt;p&gt;I found people with whom I will practice English and German. We communicate quite friendly. I also found people with whom I regularly study machine learning as a team.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Язык разметки Latex</title>
-      <link>http://localhost:1313/en/post/post4/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/post/post4/</guid>
-      <description>&lt;h2 id=&#34;cодержание&#34;&gt;Cодержание&lt;/h2&gt;
-&lt;p&gt;Сначала пользователю необходимо выполнить подготовку файла с текстом, оснащенным
-командами для LaTeX, который по традиционно обладает расширением .tex. Дальнейшие
-процедуры проходят в два этапа:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Прежде всего следует обработать файл при помощи программы-транслятора. В
-результате получится файл с расширением .dvi (device-independent, то есть, не зависящий
-от устройства).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Далее сформированный файл, именуемый еще dvi-файлом, можно при помощи программ,
-которые называются dvi-драйверами, распечатать на лазерном или точечно-матричном
-принтере, посмотреть на экране и так далее. При неудовлетворенных результатах,
-пользователь может вносить изменения в исходный файл, после чего цикл повторяется.
-Исходный файл для системы LaTeX является собственно текстом документа вместе со
-спецсимволами и командами, при помощи которых системе должны передаваться указания
-относительно размещения текста. Данный файл можно сформировать при помощи любого
-текстового редактора, но при этом нужно, чтобы в финале был получен так называемый
-чистый текстовый файл (ASCII-файл). Это значит, что текст не должен иметь в своём составе
-шрифтовые выделения, разбивки на страницы и тому подобное.
-Исходный текст документа не может иметь переносов (LaTeX сформирует их сам). Слова
-должны отделяться друг от друга пробелами, при этом LaTeX не различает, сколько именно
-пробелов пользователь оставил между словами. Конец строки также воспринимается как
-пробел. Отдельные абзацы необходимо отделять друг от друга пустыми строками.
-Большинство символов в исходном тексте непосредственно обозначают то, что следует
-напечатать (если в исходном тексте есть запятая, то и на печати будет запятой). А
-приведённые ниже символы обладают особым статусом:&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;{ } $ &amp;amp; # % _ ~ ~ \ &amp;amp; # % _ ~ ~ \&lt;/p&gt;
-&lt;p&gt;Если один из этих символов будет употреблён просто в тексте, то скорее всего будет выдано
-сообщение об ошибке. Печатное отображение первых семи знаков может быть получено, если
-в исходном тексте поставить перед соответствующим символом без пробела знак «\».
-Когда символ % употребляется в тексте не в составе комбинации %, то он считается
-«символом комментария», то есть, все символы, которые расположены на строке после него,
-программа игнорирует. При помощи символа % в исходный текст могут быть внесены пометки
-со статусом «для себя».
-Фигурные скобки ограничивают группы в исходном файле. Символ доллара ограничивает
-математические формулы. При вводе математических формул применяются знаки _ и ^ («знак
-подчеркивания» и «крышка»). Знак ~ призван обозначать «неразрывный пробел» между
-словами. Со знака \ начинаются все команды LaTeX. Знаки # и &amp;amp; применяются в более
-сложных конструкциях LaTeX.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /en/post/post4/images_hu255d48e0e0d0cfc0d1076d38da469e86_7887_0ac6d0e8eeb302080f6eb7f8882510bf.webp 400w,
-               /en/post/post4/images_hu255d48e0e0d0cfc0d1076d38da469e86_7887_b3cdf7c67fe6fe1f051b8a5ac5805039.webp 760w,
-               /en/post/post4/images_hu255d48e0e0d0cfc0d1076d38da469e86_7887_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;http://localhost:1313/en/post/post4/images_hu255d48e0e0d0cfc0d1076d38da469e86_7887_0ac6d0e8eeb302080f6eb7f8882510bf.webp&#34;
-               width=&#34;369&#34;
-               height=&#34;137&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Языки научного программирования</title>
-      <link>http://localhost:1313/en/post/post8/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/post/post8/</guid>
-      <description>&lt;h2 id=&#34;какие-языки-программирования-широко-представлены-в-науке&#34;&gt;Какие языки программирования широко представлены в науке?&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Python – один из самых мощных и гибких языков, который также широко используется в науке о данных. Основная причина – простой и элегантный синтаксис, а также большая коллекция библиотек сторонних разработчиков. Инструмент, который можно встретить повсюду в области науки о данных, – это Jupyter. Блокноты Jupyter позволяют быстро увидеть результаты работы с кодом, построить график данных и создать документацию по коду с помощью блоков разметки. Это инструмент не только для Python, но наиболее распространенная комбинация – Python и Jupyter.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;R – это язык программирования с открытым исходным кодом, впервые представленный в 1993 году и используемый для статистических вычислений, анализа данных и машинного обучения. Согласно анализу Stack Overflow, популярность R росла на протяжении последних нескольких лет.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Несмотря на то, что R широко используется исследователями, сегодня его применяют и крупные технологические компании, такие как Google, Facebook и Twitter, для анализа данных и статистики.&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;Julia берет лучшее из таких языков, как Python, Ruby, Lisp и R, сочетает это со скоростью языка C и включает привычную математическую нотацию, как в Matlab. Мы можем назвать Julia амбициозной попыткой создать язык, достаточно хороший для общего программирования и в то же время удивительный для конкретных дисциплин информатики, таких как машинное обучение, добыча данных, распределенные и параллельные вычисления. Одно из главных преимуществ Julia – скорость, сопоставимая с такими языками, как C, Rust, Lua и Go. Это объясняется тем, что он компилируется по принципу Just-In-Time (JIT).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;MATLAB – это запатентованный язык программирования, используемый миллионами инженеров и ученых для математических и статистических вычислений.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Scala – это язык программирования высокого уровня, впервые представленный в 2004 году и работающий в JVM (Java Virtual Machine) или с JavaScript в вашем браузере. Многие специалисты по анализу данных включили Scala в свой инструментарий, потому что она неоценима, когда речь идет об анализе больших массивов данных. По данным исследования Stack Overflow 2021, Scala занимает 7-е место среди самых оплачиваемых языков в мире. Но с этой статистикой нужно быть осторожным, так как работа на Scala не так часто встречается в индустрии.Поскольку Scala работает на JVM, у вас будет доступ к тонне существующих библиотек и некоторым пакетам только для Scala, используемым в области больших данных, математики, баз данных и компьютерных наук в целом. Если вы уже свободно владеете Java, Scala может стать подходящим языком для перехода к науке о данных.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Java уже несколько десятилетий является одним из самых распространенных и любимых языков программирования. Это универсальный язык, который можно использовать практически во всех мыслимых ситуациях. Наука о данных – не исключение. Хотя Java в основном используется в мобильных и веб-приложениях, благодаря своей сильной пользовательской базе она применяется вместе с другими популярными фреймворками, такими как Hadoop или Spark, для анализа больших объемов данных.
-Java можно использовать в большинстве областей науки о данных, таких как управление базами данных, машинное обучение, Если вы знаете Java, гораздо проще освоить пару библиотек, чем изучать использование совершенно другого языка, например R или Julia.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Завершает этот список язык C++. Хотя он используется в основном для создания приложений и операционных систем, без него мы не увидели бы современного расцвета науки о данных. Специалисты по исследованию данных предпочитают простые в использовании и отладке языки, такие как Python или R, потому что они не хотят тратить время на исправление странных ошибок на C/C++. Однако C++ играет важную роль в науке о данных, поскольку на нем написаны многие библиотеки, используемые в других языках. Создание модели машинного обучения требует вычислительных усилий, поэтому использование такого эффективного языка, как C++, имеет смысл. Если вы хотите участвовать в индустрии науки о данных, разрабатывая библиотеки для других языков, C++ может стать правильным выбором.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Как прошла неделя в конце апреля</title>
+      <title>How the week went at the end of April.</title>
       <link>http://localhost:1313/en/post/post7/</link>
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/post/post7/</guid>
-      <description>&lt;h2 id=&#34;что-произошло&#34;&gt;Что произошло?&lt;/h2&gt;
-&lt;p&gt;Я готовилась к контрольной и очень волновалась, но все в итоге прошло успешно. Также я стала заниматься чаще немецким языком. Я начала готовиться к экзамену по матанализу. В общем, учеба идет полным ходом. Еще у меня скоро день рождение!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Writing technical content in Markdown</title>
-      <link>http://localhost:1313/en/post/writing-technical-content/</link>
-      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/post/writing-technical-content/</guid>
-      <description>&lt;p&gt;Hugo Blox Builder is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Wowchemy.&lt;/p&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-&lt;p&gt;Wowchemy supports a Markdown extension for highlighting code syntax. You can customize the styles under the &lt;code&gt;syntax_highlighter&lt;/code&gt; option in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;data.csv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;mindmaps&#34;&gt;Mindmaps&lt;/h3&gt;
-&lt;p&gt;Wowchemy supports a Markdown extension for mindmaps.&lt;/p&gt;
-&lt;p&gt;Simply insert a Markdown &lt;code&gt;markmap&lt;/code&gt; code block and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
-&lt;p&gt;A simple mindmap defined as a Markdown list:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;
-&lt;code&gt;
-```markmap {height=&#34;200px&#34;}
-- Hugo Modules
-  - wowchemy
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
-
-&lt;pre&gt;- Hugo Modules
-  - wowchemy
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;A more advanced mindmap with formatting, code blocks, and math:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;
-&lt;code&gt;
-```markmap
-- Mindmaps
-  - Links
-    - [Wowchemy Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log(&#39;hello&#39;);
-      console.log(&#39;code block&#39;);
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;markmap&#34; style=&#34;height: 500px;&#34;&gt;
-
-&lt;pre&gt;- Mindmaps
-  - Links
-    - [Wowchemy Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log(&#39;hello&#39;);
-      console.log(&#39;code block&#39;);
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&#34;charts&#34;&gt;Charts&lt;/h3&gt;
-&lt;p&gt;Wowchemy supports the popular &lt;a href=&#34;https://plot.ly/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly&lt;/a&gt; format for interactive charts.&lt;/p&gt;
-&lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
-&lt;p&gt;Demo:&lt;/p&gt;
-
-
-
-
-&lt;div id=&#34;chart-271534698&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
-&lt;script&gt;
-  (function() {
-    let a = setInterval( function() {
-      if ( typeof window.Plotly === &#39;undefined&#39; ) {
-        return;
-      }
-      clearInterval( a );
-
-      Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-271534698&#39;, chart.data, chart.layout, {responsive: true});
-      });
-    }, 500 );
-  })();
-&lt;/script&gt;
-
-&lt;p&gt;You might also find the &lt;a href=&#34;http://plotly-json-editor.getforge.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly JSON Editor&lt;/a&gt; useful.&lt;/p&gt;
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-&lt;p&gt;Wowchemy supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
-&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;{{&amp;lt; math &amp;gt;}}$...${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; or &lt;code&gt;{{&amp;lt; math &amp;gt;}}$$...$${{&amp;lt; /math &amp;gt;}}&lt;/code&gt;, respectively. (We wrap the LaTeX math in the Wowchemy &lt;em&gt;math&lt;/em&gt; shortcode to prevent Hugo rendering our math as Markdown. The &lt;em&gt;math&lt;/em&gt; shortcode is new in v5.5-dev.)&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\gamma&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{ &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; | &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^T &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; |}{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-
-
-
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;{{&amp;lt; math &amp;gt;}}$\nabla F(\mathbf{x}_{n})${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; renders as 
-
-$\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the math linebreak (&lt;code&gt;\\&lt;/code&gt;):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;k;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;, &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-
-
-
-
-$$
-f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp; \text{if }k=1, \\
-1-p_{0}^{*} &amp; \text{if }k=0.\end{cases}
-$$
-
-
-&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
-&lt;p&gt;Wowchemy supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
-&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34;&gt;graph TD
-A[Hard] --&gt;|Text| B(Round)
-B --&gt; C{Decision}
-C --&gt;|One| D[Result 1]
-C --&gt;|Two| E[Result 2]
-&lt;/div&gt;
-&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34;&gt;sequenceDiagram
-Alice-&gt;&gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&gt;&gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&gt;&gt;Alice: Great!
-John-&gt;&gt;Bob: How about you?
-Bob--&gt;&gt;John: Jolly good!
-&lt;/div&gt;
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34;&gt;gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-&lt;/div&gt;
-&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 &amp;lt;--&amp;gt; C2: Cool label
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34;&gt;classDiagram
-Class01 &lt;|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --&gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 &lt;--&gt; C2: Cool label
-&lt;/div&gt;
-&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34;&gt;stateDiagram
-[*] --&gt; Still
-Still --&gt; [*]
-Still --&gt; Moving
-Moving --&gt; Still
-Moving --&gt; Crash
-Crash --&gt; [*]
-&lt;/div&gt;
-&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
-&lt;p&gt;You can even write your todo lists in Markdown too:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write math example
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write diagram example
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Do something else
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
-&lt;p&gt;Save your spreadsheet as a CSV file in your page&amp;rsquo;s folder and then render it by adding the &lt;em&gt;Table&lt;/em&gt; shortcode to your page:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;table&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;results.csv&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;header&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;caption&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Table 1: My results&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-&lt;table class=&#34;table&#34;&gt;
-  
-    
-    
-    &lt;tr&gt;  &lt;th&gt;customer_id&lt;/th&gt;  &lt;th&gt;score&lt;/th&gt;  &lt;/tr&gt;
-  
-  
-    &lt;tr&gt;
-      
-        
-          &lt;td data-table-dtype=&#34;number&#34;&gt;1&lt;/td&gt;
-        
-      
-        
-          &lt;td data-table-dtype=&#34;number&#34;&gt;0&lt;/td&gt;
-        
-      
-    &lt;/tr&gt;
-  
-    &lt;tr&gt;
-      
-        
-          &lt;td data-table-dtype=&#34;number&#34;&gt;2&lt;/td&gt;
-        
-      
-        
-          &lt;td data-table-dtype=&#34;text&#34;&gt;0.5&lt;/td&gt;
-        
-      
-    &lt;/tr&gt;
-  
-    &lt;tr&gt;
-      
-        
-          &lt;td data-table-dtype=&#34;number&#34;&gt;3&lt;/td&gt;
-        
-      
-        
-          &lt;td data-table-dtype=&#34;number&#34;&gt;1&lt;/td&gt;
-        
-      
-    &lt;/tr&gt;
-  
-  
-    &lt;caption&gt;Table 1: My results&lt;/caption&gt;
-  
-&lt;/table&gt;
-
-&lt;h3 id=&#34;callouts&#34;&gt;Callouts&lt;/h3&gt;
-&lt;p&gt;Academic supports a &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/#callouts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for callouts&lt;/a&gt;, also referred to as &lt;em&gt;asides&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% callout note %}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% /callout %}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;spoilers&#34;&gt;Spoilers&lt;/h3&gt;
-&lt;p&gt;Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Click to view the spoiler&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;You found me!
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
-  &lt;summary&gt;Click to view the spoiler&lt;/summary&gt;
-  &lt;p&gt;You found me!&lt;/p&gt;
-&lt;/details&gt;
-&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
-&lt;p&gt;Academic enables you to use a wide range of &lt;a href=&#34;https://docs.hugoblox.com/getting-started/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;terminal&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;pack&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;fas&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}} Terminal  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;python&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;pack&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;fab&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}} Python  
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;r-project&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;pack&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;fab&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}} R
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
-
-  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
-
-  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;what-happened&#34;&gt;What happened?&lt;/h2&gt;
+&lt;p&gt;I was preparing for the test and was very worried, but everything went well in the end. I also began to study German more often. I started preparing for the calculus exam. In general, studies are in full swing. It’s also my birthday soon!&lt;/p&gt;
 </description>
     </item>
     

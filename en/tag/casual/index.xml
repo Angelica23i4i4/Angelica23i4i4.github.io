@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Casual | Academic</title>
+    <link>http://localhost:1313/en/tag/casual/</link>
+      <atom:link href="http://localhost:1313/en/tag/casual/index.xml" rel="self" type="application/rss+xml" />
+    <description>Casual</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Casual</title>
+      <link>http://localhost:1313/en/tag/casual/</link>
+    </image>
+    
+    <item>
+      <title>The post is about the last April week</title>
+      <link>http://localhost:1313/en/post/post9/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/post/post9/</guid>
+      <description>&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s new?&lt;/h2&gt;
+&lt;p&gt;23 April was my birthday and now I&amp;rsquo;m 20. I went to a Japanese restaurant and had a nice time stydying in a small cafe. I&amp;rsquo;ve also bought a textbook for German as gift to myself. And I got congratulations from a lot of my friends!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

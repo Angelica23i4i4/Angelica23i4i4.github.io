@@ -8,7 +8,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/talk/example-talk/"
+                href="http://localhost:1313/en/talk/example-talk/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -22,7 +22,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/event/"
+                href="http://localhost:1313/en/event/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -36,7 +36,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/post/blog-with-jupyter/"
+                href="http://localhost:1313/en/post/blog-with-jupyter/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -50,7 +50,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/post/"
+                href="http://localhost:1313/en/post/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -64,7 +64,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -78,7 +78,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tag/academic/"
+                href="http://localhost:1313/en/tag/academic/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -92,7 +92,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -106,7 +106,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/category/demo/"
+                href="http://localhost:1313/en/category/demo/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -120,7 +120,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/category/science/"
+                href="http://localhost:1313/en/category/science/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -134,7 +134,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -148,7 +148,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tag/week/"
+                href="http://localhost:1313/en/tag/week/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -162,7 +162,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/post/getting-started/"
+                href="http://localhost:1313/en/post/getting-started/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -176,7 +176,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tag/%D0%B0%D0%BD%D0%B6%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0/"
+                href="http://localhost:1313/en/tag/%D0%B0%D0%BD%D0%B6%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -202,7 +202,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tag/%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/"
+                href="http://localhost:1313/en/tag/%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -240,7 +240,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tag/%E5%BC%80%E6%BA%90/"
+                href="http://localhost:1313/en/tag/%E5%BC%80%E6%BA%90/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -254,7 +254,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/category/%E6%95%99%E7%A8%8B/"
+                href="http://localhost:1313/en/category/%E6%95%99%E7%A8%8B/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -272,7 +272,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tag/%D1%81asual/"
+                href="http://localhost:1313/en/tag/%D1%81asual/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -290,7 +290,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publication/preprint/"
+                href="http://localhost:1313/en/publication/preprint/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -304,7 +304,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publication-type/article/"
+                href="http://localhost:1313/en/publication-type/article/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -318,7 +318,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publication_types/"
+                href="http://localhost:1313/en/publication_types/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -332,7 +332,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publication/"
+                href="http://localhost:1313/en/publication/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -346,7 +346,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tag/source-themes/"
+                href="http://localhost:1313/en/tag/source-themes/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -360,7 +360,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/slides/"
+                href="http://localhost:1313/en/slides/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -374,7 +374,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/slides/example/"
+                href="http://localhost:1313/en/slides/example/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -388,7 +388,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tag/c-/"
+                href="http://localhost:1313/en/tag/c-/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -402,7 +402,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/project/external-project/"
+                href="http://localhost:1313/en/project/external-project/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -416,7 +416,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/project/"
+                href="http://localhost:1313/en/project/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -430,7 +430,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tag/python/"
+                href="http://localhost:1313/en/tag/python/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -444,7 +444,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/project/example/"
+                href="http://localhost:1313/en/project/example/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -458,7 +458,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publication/journal-article/"
+                href="http://localhost:1313/en/publication/journal-article/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -472,7 +472,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publication-type/article-journal/"
+                href="http://localhost:1313/en/publication-type/article-journal/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -486,7 +486,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publication/conference-paper/"
+                href="http://localhost:1313/en/publication/conference-paper/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -500,7 +500,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publication-type/paper-conference/"
+                href="http://localhost:1313/en/publication-type/paper-conference/"
                 />
     <xhtml:link
                 rel="alternate"
