@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/en/talk/example-talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -16,22 +16,8 @@
                 href="http://localhost:1313/en/talk/example-talk/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/event/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/event/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/event/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/post/blog-with-jupyter/</loc>
-    <lastmod>2023-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -44,22 +30,8 @@
                 href="http://localhost:1313/en/post/blog-with-jupyter/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/</loc>
-    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/post/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -73,11 +45,11 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/post/post2/</loc>
-    <lastmod>2024-03-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/en/tag/academic/</loc>
-    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -91,15 +63,15 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/post/post3/</loc>
-    <lastmod>2024-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/en/tag/casual/</loc>
-    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
-    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -113,15 +85,15 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/post/post6/</loc>
-    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/en/post/post10/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/en/category/demo/</loc>
-    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -135,15 +107,15 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/post/post4/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/en/post/post5/</loc>
-    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/en/category/science/</loc>
-    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -157,11 +129,11 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/post/post8/</loc>
-    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
-    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -175,11 +147,11 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/post/post9/</loc>
-    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/en/tag/week/</loc>
-    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -193,7 +165,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/post/getting-started/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -207,11 +179,11 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/post/post1/</loc>
-    <lastmod>2024-03-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/en/tag/%D0%B0%D0%BD%D0%B6%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0/</loc>
-    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -225,7 +197,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tag/%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/</loc>
-    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -239,7 +211,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -253,7 +225,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -267,11 +239,11 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/post/post7/</loc>
-    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/en/tag/%D1%81asual/</loc>
-    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -285,11 +257,11 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/en/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -303,7 +275,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/publication-type/article/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -317,7 +289,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/publication_types/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -330,22 +302,8 @@
                 href="http://localhost:1313/en/publication_types/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/publication/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/publication/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/publication/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/tag/source-themes/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -359,7 +317,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -373,7 +331,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/slides/example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -387,7 +345,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tag/c-/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -401,7 +359,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -415,7 +373,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -429,7 +387,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tag/python/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -443,7 +401,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/project/example/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -457,7 +415,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/publication/journal-article/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -471,7 +429,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/publication-type/article-journal/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -485,7 +443,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -499,7 +457,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/publication-type/paper-conference/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -510,6 +468,48 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="http://localhost:1313/en/publication-type/paper-conference/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/post/</loc>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/post/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/publication/</loc>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/publication/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/event/</loc>
+    <lastmod>2024-04-25T23:36:54+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/event/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/event/"
                 />
   </url>
 </urlset>
